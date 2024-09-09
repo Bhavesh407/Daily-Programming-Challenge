@@ -1,0 +1,10 @@
+n = int(input())
+arr = []
+for i in range(n):
+  element = int(input())
+  if element > 2:
+    print("Error")
+  else: 
+    arr.append(element)
+print(arr)
+print(a)
