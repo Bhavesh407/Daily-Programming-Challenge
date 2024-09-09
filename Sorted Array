@@ -2,9 +2,10 @@ n = int(input())
 arr = []
 for i in range(n):
   element = int(input())
-  if element > 2:
+  if element > 2 or element < 0:
     print("Error")
   else: 
     arr.append(element)
-print(arr)
-print(a)
+print("The array before sorting: ",arr)
+a = sorted(arr)
+print("After Sorting: ",a)
